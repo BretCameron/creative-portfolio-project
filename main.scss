@@ -1,0 +1,145 @@
+//Variable: Colours
+$primary-color: darkcyan;
+$secondary-color: black;
+$contrast-color: white;
+
+//Variable: Misc
+$box-shadow: 4em 4em 10em 2em #888888;
+
+#main-content {
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.highlight {
+  width: 100%;
+}
+
+.row {
+  text-align: center;
+  margin: auto;
+}
+
+#hero {
+  background-image: url("Images/laptop_internet_music_headphones_camera_desk-wallpaper-2560x1600.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 33vh;
+  text-align: center;
+  color: white;
+}
+
+#hero h1 {
+  padding-top: 11vh;
+  font-weight: 300;
+  color: white;
+  font-size: 38px;
+}
+
+#hero h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.black-overlay {
+  background-color: rgb(0, 0, 0, 0.75);
+  height: 33vh;
+}
+
+#welcome {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.title {
+  font-size: 28px;
+  padding-top: 10px;
+  color: darkcyan;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: darkcyan;
+  font-size: 24px;
+  padding: 10px 0 10px 0;
+}
+
+img.highlight {
+  box-shadow: 4px 4px 10px 2px #888888;
+  max-width: 700px;
+  transition-duration: 200ms;
+}
+
+.image-combo {
+  max-width: 700px;
+  transition-duration: 200ms;
+}
+
+.image-combo:hover {
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+
+img.service:hover {
+  transform: translate(0, -10px);
+}
+
+.row {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+p.overlay {
+  font-weight: 600;
+  max-width: 700px;
+  position: relative;
+  top: -30px;
+  background-color: #fff;
+  padding: 5px 40px;
+  border-top: 1px solid darkgrey;
+  background-color: rgb(243, 243, 243);
+}
+
+img.service {
+  max-width: 260px;
+  padding: 20px;
+  transition-duration: 200ms;
+}
+
+#services h2 {
+  color: darkcyan;
+  font-size: 24px;
+}
+
+.lower {
+  transform: translateY(20px);
+}
+
+#contact-me {
+  height: 33vh;
+  background-color: rbg(200, 200, 200);
+}
+
+form.contact-form {
+  padding-top: 30px;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+}
+
+#contact-me {
+  text-align: center;
+}
+
+/*To do:
+- lighbox images
+- form
+- margins on desktop view*/
