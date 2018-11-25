@@ -3,8 +3,55 @@ $primary-color: darkcyan;
 $secondary-color: black;
 $contrast-color: white;
 
+//Variable: Font Sizes
+$font-sm: 1em;
+$font-md: 1.3em;
+$font-lg: 1.5em;
+$font-xl: 2.4em;
+
 //Variable: Misc
 $box-shadow: 4em 4em 10em 2em #888888;
+
+//Main HTML Tags
+p {
+  color: $secondary-color;
+  font-size: $font-sm;
+  text-align: center;
+}
+
+p.overlay {
+  font-weight: 600;
+  max-width: 700px;
+  position: relative;
+  top: -30px;
+  padding: 5px 40px;
+  border-top: 1px solid darkgrey;
+  background-color: rgb(243, 243, 243);
+}
+
+h1 {
+  color: $primary-color;
+  font-size: $font-lg;
+  text-align: center;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+h2 {
+  color: $contrast-color;
+  font-size: $font-md;
+  text-align: center;
+}
+
+button {
+  background-color: $primary-color;
+  color: $contrast-color;
+  border: none;
+}
+
+textarea {
+  width: 50%;
+}
+//END of Main HTML Tags
 
 #main-content {
   padding: 10px 10px 0px 10px;
@@ -35,7 +82,7 @@ $box-shadow: 4em 4em 10em 2em #888888;
   padding-top: 11vh;
   font-weight: 300;
   color: white;
-  font-size: 38px;
+  font-size: $font-xl;
 }
 
 #hero h2 {
@@ -57,17 +104,6 @@ $box-shadow: 4em 4em 10em 2em #888888;
   font-size: 28px;
   padding-top: 10px;
   color: darkcyan;
-}
-
-h1,
-p {
-  text-align: center;
-}
-
-h1 {
-  color: darkcyan;
-  font-size: 24px;
-  padding: 10px 0 10px 0;
 }
 
 img.highlight {
@@ -93,17 +129,6 @@ img.service:hover {
 .row {
   padding-bottom: 15px;
   padding-top: 15px;
-}
-
-p.overlay {
-  font-weight: 600;
-  max-width: 700px;
-  position: relative;
-  top: -30px;
-  background-color: #fff;
-  padding: 5px 40px;
-  border-top: 1px solid darkgrey;
-  background-color: rgb(243, 243, 243);
 }
 
 img.service {
