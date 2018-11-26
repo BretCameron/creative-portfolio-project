@@ -53,15 +53,15 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                                <div class="image-combo"><img class="highlight" src="images/WLDRNSS02.png" alt="">
-                                    <p class="overlay">Music</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-xl-4 col-lg-4 col-md-push-12 col-sm-push-12 col-xs-push-12">
                                 <h1>WLDNRNSS – Something New</h1>
                                 <p>After about a year since starting full-time work, this is the first solo track I released, and the first track released as WLDRNSS. Watch this space for more music coming soon!
                                 </p>
+                            </div>
+                            <div class="col-xl-8 col-lg-8 col-md-pull-12 col-sm-pull-12 col-xs-pull-12">
+                                <div class="image-combo"><img class="highlight" src="images/WLDRNSS02.png" alt="">
+                                    <p class="overlay">Music</p>
+                                </div>
                             </div>
                         </div>
 
@@ -81,7 +81,7 @@
                     <hr>
 
                     <section id="services">
-                        <h1 class="title">Services</h1>
+                        <h1>Services</h1>
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <img class="service" src="Images/film-editing.png" alt="">
@@ -111,28 +111,34 @@
 
     <!-- End of Container-->
 
-    <!--
     <section id="contact-me">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="contact-form">
+                <form>
 
-        <div>
-            <h1 class="title">Contact Me</h1>
-            <form class="contact-form">
-                First Name:
-                <input type="text" name="fname"></input>
-                Email:
-                <input type="email" name="fname"></input>
-                <br />
-                Message:
-                <textarea type="text" name="message"></textarea>
-                <br />
-                <button href="#" name="submit" class="btn-lg">Submit</button>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+                    <label for="lname">Email Address</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address..">
+                    <br>
+                    <label for="subject">Message</label>
+                    <br>
+                    <input class="long-input" type="text" id="subject" name="subject" placeholder="Write something.."></input>
+                    <br>
+                    <input type="submit" value="Submit">
 
-            </form>
+                </form>
 
+            </div>
         </div>
-
     </section>
--->
+
+
+
+
+
 
     </section>
     <!--Boostrap Scripts-->
