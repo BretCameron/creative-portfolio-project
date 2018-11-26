@@ -1,3 +1,11 @@
+#container {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  padding: 0%;
+}
+
 p {
   color: black;
   font-size: 1em;
@@ -22,9 +30,15 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: darkcyan;
   font-size: 1.3em;
   text-align: center;
+}
+
+.sub-title {
+  font-size: 1.81em;
+  font-weight: 200;
+  color: white;
 }
 
 button {
@@ -35,12 +49,6 @@ button {
 
 textarea {
   width: 50%;
-}
-
-#main-content {
-  padding: 10px 10px 0px 10px;
-  text-align: center;
-  margin: auto;
 }
 
 .highlight {
@@ -68,12 +76,7 @@ textarea {
   padding-top: 11vh;
   font-weight: 300;
   color: white;
-  font-size: 2.4em;
-}
-
-#hero h2 {
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 3em;
 }
 
 .black-overlay {
@@ -118,18 +121,10 @@ img.service:hover {
 }
 
 img.service {
-  max-width: 260px;
-  padding: 20px;
+  width: 12em;
+  padding-bottom: 1em;
+  padding-top: 2em;
   transition-duration: 200ms;
-}
-
-#services h2 {
-  color: darkcyan;
-  font-size: 24px;
-}
-
-.lower {
-  transform: translateY(20px);
 }
 
 #contact-me {

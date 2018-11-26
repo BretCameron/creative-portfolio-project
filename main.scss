@@ -7,12 +7,23 @@ $contrast-color: white;
 $font-sm: 1em;
 $font-md: 1.3em;
 $font-lg: 1.5em;
-$font-xl: 2.4em;
+$font-xl: 3em;
+
+//Variable: Screen Sizes
 
 //Variable: Misc
 $box-shadow: 4em 4em 10em 2em #888888;
 
 //Main HTML Tags
+
+#container {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  padding: 0%;
+}
+
 p {
   color: $secondary-color;
   font-size: $font-sm;
@@ -37,9 +48,15 @@ h1 {
 }
 
 h2 {
-  color: $contrast-color;
+  color: $primary-color;
   font-size: $font-md;
   text-align: center;
+}
+
+.sub-title {
+  font-size: $font-lg + 0.31em;
+  font-weight: 200;
+  color: $contrast-color;
 }
 
 button {
@@ -52,12 +69,6 @@ textarea {
   width: 50%;
 }
 //END of Main HTML Tags
-
-#main-content {
-  padding: 10px 10px 0px 10px;
-  text-align: center;
-  margin: auto;
-}
 
 .highlight {
   width: 100%;
@@ -83,11 +94,6 @@ textarea {
   font-weight: 300;
   color: white;
   font-size: $font-xl;
-}
-
-#hero h2 {
-  font-size: 24px;
-  font-weight: 200;
 }
 
 .black-overlay {
@@ -132,18 +138,10 @@ img.service:hover {
 }
 
 img.service {
-  max-width: 260px;
-  padding: 20px;
+  width: 12em;
+  padding-bottom: 1em;
+  padding-top: 2em;
   transition-duration: 200ms;
-}
-
-#services h2 {
-  color: darkcyan;
-  font-size: 24px;
-}
-
-.lower {
-  transform: translateY(20px);
 }
 
 #contact-me {
